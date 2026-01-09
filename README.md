@@ -34,7 +34,10 @@ cd <your-project-folder>
 
 Install all the necessary dependencies with npm:
 
-```npm install
+```
+
+npm install
+
 ```
 
 3. Running the Application
@@ -45,28 +48,11 @@ After the dependencies are installed, run the development server:
 npm start
 ```
 
-This will start the React app on your local server, usually accessible at http://localhost:3000/.
+This will start the React app on your local server, usually accessible at http://localhost:8080
 
 4. Viewing the Application
 
-Open your browser and go to http://localhost:3000/ to see the application running with a list of restaurant cards.
-
-## File Structure
-
-```
-/project-root
-  ├── /public
-  ├── /src
-      ├── /components
-      │    ├── RestaurantList.js
-      │    ├── RestaurantCard.js
-      ├── restaurants.json  <-- Mock data file
-      ├── App.js
-      ├── index.js
-  ├── /node_modules
-  ├── package.json
-  ├── package-lock.json
-```
+Open your browser and go to http://localhost:8080 to see the application running with a list of restaurant cards.
 
 ## How It Works
 
